@@ -4,3 +4,12 @@ body, button, section, h2, ul, li, a {
     text-decoration: none;
     list-style: none;
 }
+
+.toggle {
+    float: right;
+    color: #49a6e9;
+    border: none;
+    background-color: transparent;
+    font-size: 2em;
+    padding: 0.5em;
+}
