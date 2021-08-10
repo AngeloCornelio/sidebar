@@ -24,3 +24,15 @@ body {
     width: 45%; /* Temporary; to be moved to show class */
     height: 100vh;
 }
+
+.logo {
+    font-size: 1.5em;
+    color: #222;
+    padding: 1em;
+    width: auto;
+    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.logo-blue {
+    color: #50a8e8;
+}
