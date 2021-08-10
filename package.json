@@ -1,0 +1,23 @@
+{
+  "name": "sidebar",
+  "version": "1.0.0",
+  "description": "An example sidebar for my GitHub portfolio.",
+  "main": "index.html",
+  "scripts": {
+    "test": "open index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngeloCornelio/sidebar.git"
+  },
+  "keywords": [
+    "sidebar",
+    "nav"
+  ],
+  "author": "Angelo Cornelio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngeloCornelio/sidebar/issues"
+  },
+  "homepage": "https://github.com/AngeloCornelio/sidebar#readme"
+}
