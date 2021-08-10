@@ -3,6 +3,7 @@ body, button, section, h2, ul, li, a {
     padding: 0;
     text-decoration: none;
     list-style: none;
+    font-family: sans-serif;
 }
 
 .toggle {
@@ -12,4 +13,14 @@ body, button, section, h2, ul, li, a {
     background-color: transparent;
     font-size: 2em;
     padding: 0.5em;
+}
+
+body {
+    background-color: #f1f5f8;
+}
+
+.side-nav {
+    background-color: white;
+    width: 45%; /* Temporary; to be moved to show class */
+    height: 100vh;
 }
