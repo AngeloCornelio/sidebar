@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/AngeloCornelio/sidebar/issues"
   },
-  "homepage": "https://github.com/AngeloCornelio/sidebar#readme"
+  "homepage": "https://github.com/AngeloCornelio/sidebar#readme",
+  "dependencies": {
+    "eslint": "^7.32.0"
+  }
 }
