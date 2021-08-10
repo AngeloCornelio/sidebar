@@ -47,3 +47,13 @@ body {
     float: right;
     padding: 1em;
 }
+
+.nav-links li {
+    padding: 1em;
+}
+
+.nav-links a {
+    color: #7690a8;
+    font-size: 1.5em;
+    font-weight: 100;
+}
