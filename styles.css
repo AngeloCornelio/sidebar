@@ -57,3 +57,13 @@ body {
     font-size: 1.5em;
     font-weight: 100;
 }
+
+.social-media li {
+    display: inline;
+}
+
+.social-media a {
+    color: #49a6e9;
+    padding: 0.5em;
+    font-size: 1.5em;
+}
