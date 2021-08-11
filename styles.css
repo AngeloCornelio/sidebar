@@ -23,6 +23,11 @@ body {
     background-color: white;
     width: 45%; /* Temporary; to be moved to show class */
     height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
 }
 
 .logo {
