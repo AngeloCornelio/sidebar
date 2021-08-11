@@ -21,13 +21,16 @@ body {
 
 .side-nav {
     background-color: white;
-    width: 45%; /* Temporary; to be moved to show class */
+    width: 0;
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     align-content: flex-start;
+    position: absolute;
+    overflow: hidden;
+    transition: 0.3s;
 }
 
 .logo {
@@ -84,4 +87,15 @@ body {
 .social-media a {
     color: #49a6e9;
     font-size: 1.5em;
+}
+
+/* --- RESPONSIVE --- */
+.show {
+    width: 45vw; /* Temporary; to be moved to show class */
+}
+
+@media (max-width: 768px) {
+    .show {
+        width: 100vw;
+    }
 }
