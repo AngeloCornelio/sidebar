@@ -53,6 +53,10 @@ body {
     padding: 1em;
 }
 
+.nav-links {
+    flex-basis: 100%;
+}
+
 .nav-links li {
     padding: 1em;
 }
@@ -63,12 +67,21 @@ body {
     font-weight: 100;
 }
 
+.social-media {
+    flex-basis: 100%;
+    height: calc(100vh - 76px - (4 * 60px));
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+
 .social-media li {
     display: inline;
+    padding: 0.5em;
 }
 
 .social-media a {
     color: #49a6e9;
-    padding: 0.5em;
     font-size: 1.5em;
 }
